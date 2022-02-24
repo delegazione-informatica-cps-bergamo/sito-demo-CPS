@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import './navstyles.css';
 
 class Navbar extends Component {
-    state = { clickedButton : 0 } 
+    state = { clickedButton : "home" } 
     render() { 
         return (
-            <div className="navbar">
+            <><div className="navbar">
                 <div className="centralContainer">
                     <div className="title">
                         CPS - BERGAMO
@@ -14,7 +14,20 @@ class Navbar extends Component {
                         dove gli studenti si fanno sentire
                     </div>
                 </div>
-            </div>
+            </div><div className="navbar">
+                    <div className="navbutton">
+                        Chi siamo
+                    </div>
+                    <div className="navbutton">
+                        Incontri
+                    </div>
+                    <div className="navbutton">
+                        Membri
+                    </div>
+                    <div className="navbutton">
+                        Home
+                    </div>
+                </div></>
         );
     }
 }
