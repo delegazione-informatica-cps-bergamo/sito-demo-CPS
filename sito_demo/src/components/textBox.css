@@ -1,0 +1,18 @@
+.centralBox{
+    background: white;
+    padding: 1em;
+}
+
+.title{
+    border-bottom: 2px solid #777799;
+    font-size: 2em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.easyText{
+    font-size: 20px;
+}
