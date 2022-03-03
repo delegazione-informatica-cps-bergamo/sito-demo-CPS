@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './navstyles.css';
+import SomeDoodle from './doodles/SomeDoodle';
 
 class Navbar extends Component {
     super(props){
@@ -24,14 +25,16 @@ class Navbar extends Component {
     render() { 
         return (
             <><div className="navbar">
+                <SomeDoodle></SomeDoodle>
                 <div className="centralContainer">
-                    <div className="title">
+                    <div className="navTitle">
                         CPS - BERGAMO
                     </div>
                     <div className="subtitle">
-                        dove gli studenti si fanno sentire
+                        Dove gli studenti si fanno sentire
                     </div>
                 </div>
+                <SomeDoodle></SomeDoodle>
             </div><div className="navbar navButtonContainer">
                     <div className="navbutton" onClick={this.renderAbout}>
                         About

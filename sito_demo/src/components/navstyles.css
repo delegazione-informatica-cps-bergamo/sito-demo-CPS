@@ -1,9 +1,17 @@
 .navbar{
+    background: white;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .title {
+    font-size: 3em;
+    text-align: center;
+    padding: 16px 0px 10px 0px;
+}
+
+.navTitle {
     font-size: 3em;
     text-align: center;
     padding: 16px 0px 10px 0px;
@@ -30,7 +38,7 @@
 }
 
 .navbutton:hover{
-    background: #777799;
+    background: #ffc94b;
     color: white;
 }
 
