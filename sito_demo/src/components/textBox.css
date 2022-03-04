@@ -2,6 +2,7 @@
     margin: 1em;
     background: white;
     padding: 1em;
+    width: 70vw;
 }
 
 .title{
@@ -16,4 +17,8 @@
 
 .easyText{
     font-size: 20px;
+}
+
+.textBoxTitle{
+    text-transform: uppercase;
 }

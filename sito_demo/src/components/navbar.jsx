@@ -4,24 +4,9 @@ import SomeDoodle from './doodles/SomeDoodle';
 
 class Navbar extends Component {
     super(props){
-        this.props = props;
+        this.props = props;        
     }
     state = { clickedButton : "home" }
-    renderAbout = () => {
-        this.setState({clickedButton : "about"})
-    }
-
-    renderEvents = () => {
-        this.setState({clickedButton : "events"})
-    }
-
-    renderStory = () => {
-        this.setState({clickedButton : "story"})
-    }
-
-    renderHome = () => {
-        this.setState({clickedButton : "home"})
-    }
     render() { 
         return (
             <><div className="navbar">
@@ -36,16 +21,16 @@ class Navbar extends Component {
                 </div>
                 <SomeDoodle></SomeDoodle>
             </div><div className="navbar navButtonContainer">
-                    <div className="navbutton" onClick={this.renderAbout}>
+                    <div className="navbutton" onClick={() => this.props.functionToCall("about")}>
                         About
                     </div>
-                    <div className="navbutton" onClick={this.renderEvents}>
+                    <div className="navbutton" onClick={() => this.props.functionToCall("events")}>
                         Eventi
                     </div>
-                    <div className="navbutton" onClick={this.renderStory}>
+                    <div className="navbutton" onClick={() => this.props.functionToCall("story")}>
                         Storia
                     </div>
-                    <div className="navbutton" onClick={this.renderHome}>
+                    <div className="navbutton" onClick={() => this.props.functionToCall("home")}>
                         Home
                     </div>
                 </div></>

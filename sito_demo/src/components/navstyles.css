@@ -38,10 +38,21 @@
 }
 
 .navbutton:hover{
-    background: #ffc94b;
+    background: rgb(34,187,195);
+    background: linear-gradient(41deg, rgba(34,187,195,1) 0%, rgba(243,114,255,1) 80%);
+    box-shadow: -8px -8px #ffc94b, -8px -8px #ffc94b inset;
+    padding-left: 12px;
+    padding-top: 12px;
     color: white;
+    border-left: #fff solid 8px;
+    border-top: #fff solid 8px;
 }
 
 .bordered {
     border-radius: 1em;
+}
+
+.navbutton:active{
+    background: linear-gradient(131deg, white 0%, aqua 200%);
+    color: black;
 }
