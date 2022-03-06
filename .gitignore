@@ -1,1 +1,5 @@
 sito_demo/node_modules/
+sito_demo/.firebaserc
+sito_demo/firebase.json
+.github/*
+sito_demo/.firebase/*
