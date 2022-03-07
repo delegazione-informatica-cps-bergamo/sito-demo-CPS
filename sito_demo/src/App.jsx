@@ -5,6 +5,7 @@ import HomePage from './pages/home';
 import About from './pages/about';
 import Story from './pages/story';
 import Events from './pages/events';
+import OtherPage from './pages/other';
 
 
 class App extends Component {
@@ -28,6 +29,8 @@ class App extends Component {
       return <Events></Events>
     } else if(this.state.page === "story"){
       return <Story></Story>
+    } else if (this.state.page === "other"){
+      return <OtherPage></OtherPage>
     }
   }
   render() { 

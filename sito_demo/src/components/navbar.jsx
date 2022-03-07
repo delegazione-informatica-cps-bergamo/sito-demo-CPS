@@ -33,6 +33,9 @@ class Navbar extends Component {
                     <div className="navbutton" onClick={() => this.props.functionToCall("home")}>
                         Home
                     </div>
+                    <div className="navbutton" onClick={() => this.props.functionToCall("other")}>
+                        Altro
+                    </div>
                 </div></>
         );
     }

@@ -1,0 +1,5 @@
+- nella pagina "storia" manca contenuto, e il testo è noioso, potremmo fare un video che parla della storia della CPS
+    https://it.wikipedia.org/wiki/Consulta_provinciale_degli_studenti
+
+- servono idee per il design del sito, per ora ho messo questo bianco, servono altre idee per altri temi
+    Sarebbe bello poter 
