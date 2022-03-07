@@ -8,7 +8,7 @@
  Il sito è pubblicato tramite firebase su [cps-bergamo.web.app](https://cps-bergamo.web.app)
 
 # Sviluppo
- Per partecipare allo sviluppo, potete entrare nel nostro [server discord](https://discord.gg/7qD569H3CW)
+ Per partecipare allo sviluppo, potete entrare nel nostro [server discord](https://discord.gg/vUuVjm9snu)
  Abbiamo bisogno di una grande quantità di persone e idee
  per ora siamo ancora in alto mare
 
